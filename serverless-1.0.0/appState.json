@@ -1,0 +1,95 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "a3a18449-e1b2-4b36-a6b4-242cc9ae3274": {
+        "id": "a3a18449-e1b2-4b36-a6b4-242cc9ae3274",
+        "parent": null,
+        "name": "serverless.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "serverless.js",
+        "cursor": {
+          "lineNumber": 18,
+          "column": 2
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "serverless",
+          "handler": "handler"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1604483017426,
+        "testCases": {
+          "9e7a8d75-b113-4d42-81a7-63b813deed4f": {
+            "id": "9e7a8d75-b113-4d42-81a7-63b813deed4f",
+            "functionId": "a3a18449-e1b2-4b36-a6b4-242cc9ae3274",
+            "name": "My First Test Case",
+            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}"
+          }
+        }
+      },
+      "278e3779-46bd-4fd4-b030-6e0b969ee5fc": {
+        "id": "278e3779-46bd-4fd4-b030-6e0b969ee5fc",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "a3e824b1-bdc3-4ca1-91c6-5d86bbb6d4db": {
+        "id": "a3e824b1-bdc3-4ca1-91c6-5d86bbb6d4db",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "openFiles": [
+      "a3a18449-e1b2-4b36-a6b4-242cc9ae3274"
+    ],
+    "currentFileId": "a3a18449-e1b2-4b36-a6b4-242cc9ae3274",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.4.1",
+    "projectName": "serverless",
+    "projectDescription": "My First Project",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1604487762485
+  }
+}
