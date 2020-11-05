@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notification Alarm</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+    crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Tired of unsolicited notifications?</h1>
+        <div class="box">
+            <h2>Now you choose when and what to get notified!</h2>
+            <div id="detail">
+                <label id="lb01">
+                    <span>Notification message: </span>
+                    <input type="text" value="" id="inputBox" placeholder="Your notification text">
+
+                </label>
+                <br>
+                <label id="lb02">
+                    <span>Select date: </span>
+
+                    <input type="date" value="" id="inputDateBox" class="inputBox"  required>
+                    <br>
+                    <span>Select time: Hours:Minutes and AM/PM :</span>
+                    <input type="time" value="" id="inputHoursBox" class="inputBox" required>
+                    <br>
+                    <input type="button" id="btnApply" name="Apply" value="Add Notification"> 
+            </div>
+            <div id="list">
+                <h3>Notification Log</h3>
+
+    </div>
+    <footer>
+        <script rel="script" src="script.js"></script>
+        <script rel="script" src="extendStorage.js"></script>
+    </footer>
+
+</body>
+</html>
