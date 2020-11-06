@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>W3C Geolocation API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+       <div id="wrapper">
+            <div class="box" id="b1">
+                <h1>The W3C Geolocation API</h1>
+            </div>
+            <div class="box" id="b2">
+                <div id="ans">
+
+                </div>
+                    <label class="lb">
+                        <input type="button" id="Apply" class="btn" name="Apply" value="Get Coordinates">
+                        <br><br>
+
+                    </label><br><br>
+                    <label class="lb">
+                        <div id="getCoDiv">
+                            <label class="label">Enter Coordinates (Latitude) :</label>
+                            <input type="number" id="num1" class="inputBox" placeholder="coordinates"><br>
+                        <label class="label">Enter Coordinates (Longitude) :</label>
+                        <input type="number" class="inputBox" id="num2" placeholder="coordinates"><br>
+                        <input type="button" id="findMap" name="Apply" value="Find Map">
+                        </div>
+                        <br>
+                        <span class="sp1">Enter Places to be Found :</span>
+                        <input type="text" id="text1" class="inputBox" placeholder="address">
+                        <input type="button" id="findMapLocation" name="Find Location" value="Find Location">
+                        <br>
+                        <span class="sp1">Find Distance :</span>
+                        <br>
+                        <!--<input type="text" id="text2" placeholder="address">-->
+                        <div id="internalDiv">
+                            <label class="label">Address A</label>
+                            <input type="text" class="txt1 inputBox" id="text01"  placeholder="Point A address"><br>
+                            <label class="label">Address B</label>
+                            <input type="text" class="txt1 inputBox" id="text02" placeholder="Point B address">
+                        </div>
+
+                        <input type="button" id="findPlaceDistance" name="Find Location" value="Find Route">
+
+                    </label>
+
+
+            </div>
+            <div class="box" id="b3">
+                <div id="map" ></div>
+            </div>
+           
+
+       </div>
+
+    <script type="text/javascript" src="script.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAv5jZ3NytCMHfWgY7uZsnsJE9wByVaNDY&callback=initMap&libraries=places&callback=initMap1&callback=initMap2">
+    </script>
+                 
+</body>
+</html>
